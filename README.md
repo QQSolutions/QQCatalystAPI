@@ -1,2 +1,5 @@
-CatalystAPISample
-=================
+Welcome to the QQ Catalyst REST API SDK. 
+We encourage other developers to develop 3rd Party applications that access our REST API to make extensions to QQ Catalyst including mobile applications, web pages, reporting extensions and data bridges.
+A valid username and password from QQ Catalyst is required to access any data. 
+At this time the only users of QQ Catalyst are Agency employees but in the near future Agencies will be able to grant customers access to their data allowing them to login to catalyst through mobile apps and web portals that will utilize the API.
+The authentication framework we use is the industry standard OAuth2 protocol. As a developer you will have to contact QQ Solutions for access privileges. By giving us a little bit of information about yourself and your intentions to use the API, we will in return give you an Access Token and Access Key. With these two pieces of information you will be able to prompt the user to login with our login page and access user data. If you are not familiar with OAuth2 standards or processes, please proceed to the “How To Login” section of this documentation to continue learning about our login process or go to the OAuth 2.0 Standards page to learn more about the technology used. 
