@@ -1,5 +1,19 @@
-Welcome to the QQ Catalyst REST API SDK. 
-We encourage other developers to develop 3rd Party applications that access our REST API to make extensions to QQ Catalyst including mobile applications, web pages, reporting extensions and data bridges.
-A valid username and password from QQ Catalyst is required to access any data. 
-At this time the only users of QQ Catalyst are Agency employees but in the near future Agencies will be able to grant customers access to their data allowing them to login to catalyst through mobile apps and web portals that will utilize the API.
-The authentication framework we use is the industry standard OAuth2 protocol. As a developer you will have to contact QQ Solutions for access privileges. By giving us a little bit of information about yourself and your intentions to use the API, we will in return give you an Access Token and Access Key. With these two pieces of information you will be able to prompt the user to login with our login page and access user data. If you are not familiar with OAuth2 standards or processes, please proceed to the “How To Login” section of this documentation to continue learning about our login process or go to the OAuth 2.0 Standards page to learn more about the technology used. 
+QQ Catalyst API 
+=========================================
+QQ Solutions
+------------
+QQ Solutions' mission is to help independent insurance agencies compete in the digital world, by leveraging Web technology, social media, Internet marketing and real-time services. We strive to delight our customers by exceeding their expectations in product quality, customer service, training & support, and by meeting their evolving needs through a program of continuous product development and improvement incorporating the best available technologies.
+
+API
+---
+The Catalyst API allows our customers and 3rd Party applications to access agency mangaement information via our REST services.
+Getting Started
+---------------
+If you are insterested in leveragin our API, reach out ot us via email at <mailto:apidev@qqsolutions.com>.  The sample application provided here will illustrate how to interact with our API.  To enable access to the functioning API, you will need to become a QQCatalyst subscriber.
+Developers
+---------
+The sample application presents both a C# windows form application and an MVC implementation of an API consumer.  The sample application will present all methods available via the API as well as show sample datasets and message formats.
+Legal
+-----
+QQCatalyst is a registerd trademark of QQSolutions, Inc.
+
