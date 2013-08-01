@@ -1,6 +1,6 @@
 QQ Solutions, Inc.
 -----------
-<h3>QQCatalyst API</h3>
+<h3>QQCatalyst&#8482; API</h3>
 ______________
 QQ Solutions' mission is to help independent insurance agencies compete in the digital world, by leveraging Web technology, social media, Internet marketing and real-time services. We strive to delight our customers by exceeding their expectations in product quality, customer service, training & support, and by meeting their evolving needs through a program of continuous product development and improvement incorporating the best available technologies.  The Catalyst API allows our customers and 3rd Party applications to access agency management information via our REST services.
 <h4>Getting Started</h4>
