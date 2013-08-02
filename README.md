@@ -1,13 +1,13 @@
 QQ Solutions, Inc.
 -----------
-<h3>QQCatalyst&#8482; API</h3>
+<h3>QQ Catalyst&#8482; API</h3>
 ______________
 QQ Solutions' mission is to help independent insurance agencies compete in the digital world, by leveraging Web technology, social media, Internet marketing and real-time services. We strive to delight our customers by exceeding their expectations in product quality, customer service, training & support, and by meeting their evolving needs through a program of continuous product development and improvement incorporating the best available technologies.  The Catalyst API allows our customers and 3rd Party applications to access agency management information via our REST services.
 <h4>Getting Started</h4>
 If you need to integrate with QQCatalyst, we have everything you need here. Download our sample application, view our detailed API documentation, you will be ready to go in no time at all. When you ready to collaborate with us as a 3rd party vendor, contact us at <mailto:apidev@qqsolutions.com>.  We will set you with a sandbox account and help you bring your product to life.
 
-<h5>Helpful Links</h5>
-<p><a href='http://apidev.qqcatalyst.com/#techDoc'>View QQCatalyst API WebHelp </a></p>
+<h5>Helpful Links</h5> 
+<p><a href='http://apidev.qqcatalyst.com/#techDoc'>View QQ Catalyst API WebHelp </a></p>
 <p><a href='http://www.qqsolutions.com'>Visit QQ Solutions Online</a></p>
 <p><a href='mailto:apidev@qqsolutions.com'>Send QQ API Development Team a Message</a></p>
 
@@ -23,4 +23,4 @@ Please tell us how we can make the APIs better.
 If you have a specific feature request or if you found a bug, <a href='mailto:apidev@qqsolutions.com'>please let us know!</a>
 
 <h5>Legal</h5>
-QQCatalyst is a registered trademark of QQSolutions, Inc.
+QQ Catalyst is a registered trademark of QQSolutions, Inc.
