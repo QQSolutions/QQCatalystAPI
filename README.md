@@ -12,7 +12,7 @@ If you need to integrate with QQCatalyst, we have everything you need here. Down
 <p><a href='mailto:apidev@qqsolutions.com'>Send QQ API Development Team a Message</a></p>
 
 <h5>Sample Application</h5>
-The sample application will demonstrate how to interact with our API.  The program was created in C# WinForms and has a MVC project.  This application will walk you through the steps needed to interact and will dynamically generate code snippets for the methods being explored.
+The sample application will demonstrate how to interact with our API.  The program was created in C# WinForms and has a MVC project.  This application will walk you through the steps needed to consume the API and will dynamically generate code snippets for the methods being explored.
 
 <h5>Authentication</h5>
 A valid username and password from QQ Catalyst is required to access any data. At this time, the only users of QQ Catalyst are Agency employees but in the near future Agencies will be able to grant customers access to their data allowing them to login to catalyst through mobile apps and web portals that will utilize the API.
