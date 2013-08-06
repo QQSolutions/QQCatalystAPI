@@ -8,7 +8,7 @@ The Catalyst API allows our customers and 3rd Party applications to access agenc
 If you need to integrate with QQCatalyst, we have everything you need here. Download our sample application, view our detailed API documentation, you will be ready to go in no time at all. When you ready to collaborate with us as a 3rd party vendor, contact us at <mailto:apidev@qqsolutions.com>.  We will set you with a sandbox account and help you bring your product to life.
 
 <h5>Helpful Links</h5> 
-<p><a href='http://apidev.qqcatalyst.com/#techDoc'>View QQ Catalyst API WebHelp </a></p>
+<p><a href='http://api.qqcatalyst.com/#techDoc'>View QQ Catalyst API WebHelp </a></p>
 <p><a href='http://www.qqsolutions.com'>Visit QQ Solutions Online</a></p>
 <p><a href='http://oauth.net/2/'>OAuth 2 Standards Page</a></p>
 <p><a href='mailto:apidev@qqsolutions.com'>Send QQ API Development Team a Message</a></p>
