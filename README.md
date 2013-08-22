@@ -22,4 +22,4 @@ A valid username and password from QQ Catalyst is required to access any data. A
 Please tell us how we can make the APIs better. If you have a specific feature request or if you found a bug, <a href='mailto:apidev@qqsolutions.com'>please let us know!</a>
 
 <h5>Legal</h5>
-QQ Catalyst is a registered trademark of QQSolutions, Inc.
+Users of the API must agree to the <a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQ%20Catalyst%20API%20TOU%20Agreement.pdf?raw=true' parent='_blank'>terms of service</a>.  QQ Catalyst is a registered trademark of QQSolutions, Inc.
