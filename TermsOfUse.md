@@ -1,7 +1,8 @@
-QQ Catalyst API TOU Rev. 3 082613 
+![QQ Catalyst&#8482; API](http://www.qqsolutions.com/assets/images/logo-api-med.png) 
+TOU Rev. 3 082613 
 
 ## Terms of Use
-### Effective Date: August 26, 2013
+##### Effective Date: August 26, 2013
 These Terms of Service (TOU) govern Your use of the QQ Catalyst� API (the �API�).
 By accepting these TOU, either online by clicking a box indicating Your acceptance, or by accessing the website
 for our API, You agree to the terms herein. If You are accepting these TOU on behalf of a company or other legal
