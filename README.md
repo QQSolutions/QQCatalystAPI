@@ -10,7 +10,7 @@ As a partner with our customers, we welcome the opportunity to help other vendor
 In order to collaborate with QQ Solutions, you first need to <a href=’ http://www.qqsolutions.com/solutions/agencymanagement/qqcatalyst/api.aspx‘  target=’_null’>register online</a> for our partner program.   At this point, we will set you with a sandbox account and provide you with an account and security key for use in your product.  Next, <a href=’ https://github.com/QQSolutions/QQCatalystAPI/blob/master/CatalystAPISample.zip?raw=true’>download our sample application</a> , view our detailed API documentation and you will be ready to go in no time at all. If you have questions or concerns at any time, feel free to send us a <a target='_null' href=’mailto:apidev@qqsolutions.com’>message. </a>
 
 #### Sample Application
-The sample application will demonstrate how to interact with our API.  The program was created in C# WinForms and has a MVC project.  This application will walk you through the steps needed to consume the API and will dynamically generate code snippets for the methods being explored.  For more details on the sample application, download the <a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQCatalyst%20API%20Sample%20Application.pdf?raw=true'>overview document</a>
+The sample application will demonstrate how to interact with our API.  The program was created in C# WinForms and has a MVC project.  This application will walk you through the steps needed to consume the API and will dynamically generate code snippets for the methods being explored.  For more details on the sample application, download the <a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQCatalyst%20API%20Sample%20Application.pdf?raw=true'>overview document</a>.
 
 #### Authentication
 A valid username and password from QQ Catalyst is required to access any data. At this time, users of QQ Catalyst are agency employees.  In the near future, agencies will be able to grant customers access to their data allowing them to login to Catalyst through mobile apps and consumer portals that will utilize the API.  
@@ -24,6 +24,8 @@ Please tell us how we can make the APIs better. If you have a specific feature r
 Users of the API must agree to the <a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQ%20Catalyst%20API%20TOU%20Agreement.pdf?raw=true' parent='_blank'>terms of service</a>.  QQ Catalyst is a registered trademark of QQSolutions, Inc.
 
 #### Helpful Links
+<p><a href=’ https://github.com/QQSolutions/QQCatalystAPI/blob/master/CatalystAPISample.zip?raw=true’>Download Sample Application</a></p>
+<p><a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQCatalyst%20API%20Sample%20Application.pdf?raw=true'>Sample Application Documentation</a></p>
 <p><a href='http://api.qqcatalyst.com/#techDoc'>View QQ Catalyst API WebHelp </a></p>
 <p><a href='http://www.qqsolutions.com'>Visit QQ Solutions Online</a></p>
 <p><a href='http://oauth.net/2/'>OAuth 2 Standards Page</a></p>
