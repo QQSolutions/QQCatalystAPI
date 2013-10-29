@@ -1,3 +1,4 @@
+# ACTIVE AUTHENTICATION EXAMPLE
 import urllib
 import urllib2
 import json
@@ -42,3 +43,56 @@ ret = access_token.get('/Lookups.svc/LoginStatus')
 
 # DUMP A JSON FORMATTED STRING OF RESULT FROM ABOVE
 print json.dumps(ret.parsed, indent=4)
+
+# END
+
+# PASSIVE AUTHENTICATION EXAMPLE
+
+import urllib
+import urllib2
+import json
+
+from pyoauth2 import Client
+
+CLIENT_ID = 'YOURCLIENTID'
+CLIENT_SECRET = 'YOURCLIENTSECRET'
+REDIRECT_URL = "https://login.qqcatalyst.com/WinformCallback/completed.htm"
+AUTHORIZE_URL = "https://login.qqcatalyst.com/oauth/authorize"
+ACCESS_TOKEN_URL = "https://login.qqcatalyst.com/oauth/token"
+RESOURCE_URL = "https://api.qqcatalyst.com"
+
+SCOPE = ''
+
+client = Client(CLIENT_ID, CLIENT_SECRET,
+                site=RESOURCE_URL,
+                authorize_url=AUTHORIZE_URL,
+                token_url=ACCESS_TOKEN_URL)
+
+print '-' * 80 + '\n'
+userName = raw_input('Please enter your User Name: ')
+password = raw_input('Please enter your Password: ')
+access_token = client.password.get_token(userName, password, redirect_uri=REDIRECT_URL)
+
+print 'token', access_token.headers 
+print '\n'
+print '-' * 80 + '\n '
+ret = access_token.get('/Lookups.svc/LoginStatus')
+print json.dumps(ret.parsed, indent=4)
+raw_input("Press Enter To Continue...")
+print '\n\n'
+print '-' * 80 + '\n '
+input = raw_input("Enter a customer search term: ")
+ret = access_token.get('/Contacts.svc/Customer?keyword=' + input)
+print json.dumps(ret.parsed, indent=4)
+customerID = raw_input("\nEnter a customer ID: ")
+ret = access_token.get('/Contacts.svc/Customer/' + customerID)
+print json.dumps(ret.parsed, indent=4)
+input = raw_input("\nWould you like to see a list of policies? (y/n) ")
+if input == 'y':
+    ret = access_token.get('/Policies.svc/Policy?customerid=' + customerID)
+    print json.dumps(ret.parsed, indent=4)
+    policyid = raw_input("\nEnter a policy ID to get details for: ")
+    ret = access_token.get('/Policies.svc/Policy/' + policyid)
+    print json.dumps(ret.parsed, indent=4)
+    print '\n\nShow is over'
+
