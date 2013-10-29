@@ -1,0 +1,44 @@
+import urllib
+import urllib2
+import json
+from pyoauth2 import Client
+
+# SETUP CONSTANTS
+CLIENT_ID = 'YOURCLIENTID'
+CLIENT_SECRET = 'YOURCLIENTSECRET'
+REDIRECT_URL = "https://login.qqcatalyst.com/WinformCallback/completed.htm" #OR YOUR CALLBACK IF DIFFERENT
+SCOPE = ''
+AUTHORIZE_URL = "https://login.qqcatalyst.com/oauth/authorize"
+ACCESS_TOKEN_URL = "https://login.qqcatalyst.com/oauth/token"
+RESOURCE_URL = "https://api.qqcatalyst.com"
+
+# INITIALIZE CLIENT
+client = Client(CLIENT_ID, CLIENT_SECRET,
+                site=RESOURCE_URL,
+                authorize_url=AUTHORIZE_URL,
+                token_url=ACCESS_TOKEN_URL)
+
+# BUILD AUTHORIZATION URL
+print '-' * 80 + '\n'
+authorize_url = client.auth_code.authorize_url(redirect_uri=REDIRECT_URL, scope=SCOPE)
+print 'Go to the following link in your browser and sign in:' + '\n'
+print authorize_url + '\n'
+
+# PROMPT USER TO GO THRU LOGIN PROCESS AND SAVE TOKEN TO A READABLE TEXT FILE 
+x = raw_input('Save the code from the Query String into the file token.txt and hit ENTER when you\'re done:')
+file = open('token.txt', 'r')
+code = file.read()
+code = code.strip()
+code = urllib.unquote(code)
+
+# PROCESS FOR ACCESS TOKEN 
+access_token = client.auth_code.get_token(code, redirect_uri=REDIRECT_URL)
+print 'token', access_token.headers 
+print '\n'
+print '-' * 80 + '\n '
+
+# USE ACCESS TOKEN TO CALL API AND RETURN DATA 
+ret = access_token.get('/Lookups.svc/LoginStatus')
+
+# DUMP A JSON FORMATTED STRING OF RESULT FROM ABOVE
+print json.dumps(ret.parsed, indent=4)
