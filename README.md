@@ -1,5 +1,3 @@
-![QQ Catalyst&#8482; API](http://old.qqsolutions.com/assets/images/logo-api-med.png) 
-
 ### Overview
 <a href='http://www.qqsolutions.com' target='_null'>QQ Solutions, Inc.</a> is excited to release our Catalyst API to vendor beta. The Catalyst API allows our customers and 3rd Party applications access to agency management information via our application services.  Partner applications can query, create and update agency specific data directly from Catalyst.  
 
